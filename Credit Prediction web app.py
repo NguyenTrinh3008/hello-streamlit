@@ -4,7 +4,7 @@ import streamlit as st
 
 
 # loading the saved model
-loaded_model = pickle.load(open('E:\AI4E-Project\credit_classifier_model.sav', 'rb'))
+loaded_model = pickle.load(open('credit_classifier_model.sav', 'rb'))
 
 
 # creating a function for Prediction
