@@ -2,7 +2,7 @@ import joblib
 import numpy as np
 import pickle
 # Load the model
-loaded_model = pickle.load(open('E:\AI4E-Project\credit_classifier_model.sav', 'rb'))
+loaded_model = pickle.load(open('credit_classifier_model.sav', 'rb'))
 def credit_prediction(input_data):
     input_data = np.random.rand(57)
     input_data = input_data.reshape(1, -1)
